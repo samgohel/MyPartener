@@ -10,25 +10,26 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<java-version>1.8</java-version>
 		<spring.version>5.1.9.RELEASE</spring.version>
 		<spring-security.version>5.1.6.RELEASE</spring-security.version>
 		<springdatajpa.version>2.1.10.RELEASE</springdatajpa.version>
 		<hibernate.version>6.0.0.Alpha2</hibernate.version>
 		<hibernate.validator>6.1.0.Alpha6</hibernate.validator>
-		<jstl.version>1.2</jstl.version>
-		<servlets.version>4.0.1</servlets.version>
 		<jsp.version>2.3.3</jsp.version>
 		<mysqlconnector.version>8.0.17</mysqlconnector.version>
 		<commons-fileupload.version>1.4</commons-fileupload.version>
 		<slf4j.version>2.0.0-alpha0</slf4j.version>
 		<codec.version>1.13</codec.version>
 		<io.version>2.6</io.version>
-		<dbcp2.version>2.7.3</dbcp2.version>
+		<dbcp2.version>2.7.0</dbcp2.version>
 		<jasperreports.version>6.9.0</jasperreports.version>
 		<itext.version>5.5.13.1</itext.version>
 		<httpclient.version>4.5.10</httpclient.version>
 		<poi.version>4.1.0</poi.version>
+
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<java-version>1.8</java-version>
 	</properties>
 
 
@@ -71,7 +72,7 @@
 			<artifactId>commons-dbcp2</artifactId>
 			<version>${dbcp2.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
@@ -102,12 +103,14 @@
 			<version>${itext.version}</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>servlets.version</version>
+			<version>4.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -115,10 +118,11 @@
 			<version>${httpclient.version}</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
 		<dependency>
-			<groupId>javax.servlet.jsp.jstl</groupId>
+			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
-			<version>${jstl.version}</version>
+			<version>1.2</version>
 		</dependency>
 
 		<dependency>
