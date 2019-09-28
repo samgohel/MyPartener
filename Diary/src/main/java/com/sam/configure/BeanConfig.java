@@ -33,8 +33,8 @@ public class BeanConfig {
 		BasicDataSource dataSource = new BasicDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/diary");
-		dataSource.setUsername("sam");
-		dataSource.setPassword("root");
+		dataSource.setUsername("*******");
+		dataSource.setPassword("********");
 		return dataSource;
 	}
 	
