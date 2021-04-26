@@ -20,7 +20,7 @@
 		<commons-fileupload.version>1.4</commons-fileupload.version>
 		<slf4j.version>2.0.0-alpha0</slf4j.version>
 		<codec.version>1.13</codec.version>
-		<io.version>2.6</io.version>
+		<io.version>2.7</io.version>
 		<dbcp2.version>2.7.0</dbcp2.version>
 		<jasperreports.version>6.9.0</jasperreports.version>
 		<itext.version>5.5.13.1</itext.version>
