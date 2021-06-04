@@ -24,7 +24,7 @@
 		<dbcp2.version>2.7.0</dbcp2.version>
 		<jasperreports.version>6.9.0</jasperreports.version>
 		<itext.version>5.5.13.1</itext.version>
-		<httpclient.version>4.5.10</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
 		<poi.version>4.1.0</poi.version>
 		<jackson.version>2.10.0.pr3</jackson.version>
 
