@@ -14,7 +14,7 @@
 		<spring-security.version>5.1.6.RELEASE</spring-security.version>
 		<springdatajpa.version>2.1.10.RELEASE</springdatajpa.version>
 		<hibernate.version>6.0.0.Alpha2</hibernate.version>
-		<hibernate.validator>6.1.0.Final</hibernate.validator>
+		<hibernate.validator>6.1.5.Final</hibernate.validator>
 		<jsp.version>2.3.3</jsp.version>
 		<mysqlconnector.version>8.0.17</mysqlconnector.version>
 		<commons-fileupload.version>1.4</commons-fileupload.version>
